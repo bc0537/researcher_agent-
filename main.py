@@ -20,8 +20,6 @@ class ResearchResponse(BaseModel):
 
 
 
-
-
 llm = ChatAnthropic(model="claude-3-5-sonnet-20241022")
 
 # response=llm.invoke("explain llm")
